@@ -1,3 +1,20 @@
-This a git repo.
+# Author: Ajay Gopal
+# Codename: mafiaboy009
+# email: ajaygopal.k@gmail.com
 
 Data Structures and Algorithms
+
+Concept: OOP
+Programming Language: C++ 
+
+Templates are used for implementation.
+
+
+Implemented some basic data structures and some relavant algo.
+
+Implemented
+1. doubly linked list 
+2. stack and queue (inherited from the above linked list implementation)
+3. binary search tree -- some functions like level order traversal are
+implemented using the stacks and queues
+
