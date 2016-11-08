@@ -1,0 +1,23 @@
+#IFNDEF __LINKED_LIST_H__
+#include "linked_list.h"
+#ENDIF
+
+template <typename E>
+class queue:public linked_list<E>
+{
+	public:
+		bool enqueue(E input)
+		{
+			return insert(input);
+		}
+
+		E dequeue()
+		{
+			return remove_from_front();
+		}
+
+		void print_queue()
+		{
+			print_linkedList();
+		}
+};
